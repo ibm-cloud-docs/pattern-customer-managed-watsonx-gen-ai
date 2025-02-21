@@ -66,7 +66,7 @@ production: false
 
 
 
-# terraform-ibm-cloudpak-data 
+# Customer managed watsonx gen AI 
 {: #terraform-ibm-cloudpak-data}
 {: toc-content-type="reference-architecture"}
 {: toc-version="1.0"}
