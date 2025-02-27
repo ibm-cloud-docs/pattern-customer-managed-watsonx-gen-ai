@@ -32,13 +32,26 @@ toc:
             navtitle: Compute
           - topic: storage-design.md
             navtitle: Storage
-          - topic: networking-design.md
+          - topic: network-design.md
             navtitle: Networking
           - topic: security-design.md
             navtitle: Security
           - topic: resiliency-design.md
             navtitle: Resiliency
           - topic: service-management-design.md
+            navtitle: Service management
+      - topicgroup:
+          label: Architecture decisions
+          topics:
+          - topic: compute-architecture.md
+            navtitle: Compute
+          - topic: storage-architecture.md
+            navtitle: Storage
+          - topic: networking-architecture.md
+            navtitle: Networking
+          - topic: resiliency-architecture.md
+            navtitle: Resiliency
+          - topic: service-management-architecture.md
             navtitle: Service management
   - navgroup:
       id: deploy
