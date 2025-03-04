@@ -11,9 +11,6 @@ keywords:
 # Architecture decisions for service management
 {: #service-management-arch}
 
-# Architecture decisions for service management
-{: #service}
-
 The following summarize the architecture decisions for service management for customer managed watsonx Gen AI pattern.
 
 ## Architecture decisions for monitoring
