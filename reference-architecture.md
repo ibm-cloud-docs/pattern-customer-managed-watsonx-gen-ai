@@ -74,11 +74,6 @@ production: false
 
 This reference architecture summarizes the best practices for watsonx Gen AI Pattern deployment on IBM Cloud.
 
-Gen AI holds transformative potential, but also raises concerns around trust, security, and 
-compliance. A clear understanding of its infrastructure is crucial.
-
-This reference architecture outlines best practices for deploying secure, single-tenant watsonx customer-managed software on IBM Cloud with Gen AI patterns.
-
 ## Architecture diagram
 {: #architecture-diagram}
 
