@@ -87,7 +87,7 @@ Central to the architecture are three VPCs, which provide for separation of conc
 Provides compute, storage, and network services to enable the client or service provider's administrators to monitor, operate, and maintain the watsonx software and the Gen AI application environment.
 
 **Workload VPC**  
-Provides compute, storage, and network services to securely support the single tenant (dedicated) watsonx software and the hosted Gen AI applications that deliver services to the consumer.
+Provides compute, storage, and network services to securely support the single tenant (dedicated) watsonx software that provides Gen AI capabilities and the hosted Gen AI applications that deliver services to the consumer.
 
 **Edge VPC**  
 The edge VPC is used to enhance boundary protection for the workload VPC, by allowing consumers to access Gen AI User Interface through the public internet.

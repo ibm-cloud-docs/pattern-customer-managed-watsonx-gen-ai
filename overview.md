@@ -14,8 +14,8 @@ keywords: watsonx-gen-ai
 # Overview
 {: #overview}
 
-The objective of the customer-managed watsonx Gen AI solution is to provide users with a comprehensive and highly available architecture for deploying and managing artificial intelligence workloads on IBM Cloud. 
-This solution is designed to leverage Red Hat OpenShift within a VPC Landing Zone, ensuring a robust and scalable infrastructure for AI applications while meeting high availability and performance requirements.
+The objective of the customer-managed watsonx Gen AI solution is to provide customers with a comprehensive single-tenant (dedicated) and highly available architecture for deploying and managing gen AI workloads on IBM Cloud. 
+This solution is designed to leverage watsonx software on Red Hat OpenShift within a VPC Landing Zone, ensuring a robust and scalable infrastructure for AI applications while meeting high availability and performance requirements.
 
 The guidance provided in this document aims to:
 * Offer a high-level overview of the architecture, ensuring alignment with IBM’s cloud best practices and architecture framework.
