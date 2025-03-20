@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-02-18"
+lastupdated: "2025-03-18"
 
 subcollection: pattern-customer-managed-watsonx-gen-ai
 
@@ -15,4 +15,8 @@ keywords:
 # Networking design
 {: #networking-design-consideration}
 
-For more information on network design considerations within a region, see [{{site.data.keyword.redhat_openshift_notm}} on VPC resiliency](/docs/pattern-openshift-vpc-mz-resiliency?topic=pattern-openshift-vpc-mz-resiliency-overview).
+The customer managed watsonx Gen AI pattern uses Red Hat OpenShift within an {{site.data.keyword.Bluemix_notm}} VPC for its infrastructure and network services.   to segment the management and application workloads and support the application deployment across multiple availability zones.
+
+- Deploy the Red Hat OpenShift within a Virtual Private Cloud (VPC) provisioned across multiple availability zones within a region to provide workload isolation within the public cloud.
+- Place each worker node in a separate subnet in each availability zone. Less than 10 ms latency is required for synchronous replication. Use security groups and access control lists (ACLs) as firewalls to limit access to server instances for operational purposes and to control network traffic.
+- Use VPC Application Load Balancers (ALB) to distribute incoming requests to stateful containerized applications.

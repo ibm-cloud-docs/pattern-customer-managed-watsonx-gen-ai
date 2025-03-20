@@ -139,7 +139,7 @@ The following table outlines the products or services used in the architecture f
 
 | Aspects | Architecture components | How the component is used |
 | -------------- | -------------- | -------------- |
-| Data | [Watsonx Assistant](https://www.ibm.com/products/Watsonx-assistant) | Conversational artificial intelligence platform |
+| Data | [Watsonx Assistant](https://www.ibm.com/products/watsonx-assistant) | Conversational artificial intelligence platform |
 |  | [Watson Discovery](https://www.ibm.com/products/watson-discovery) | Automates the discovery of information and insights with advanced Natural Language Processing and Understanding |
 |  | [watsonx.ai](https://www.ibm.com/products/watsonx-ai) | Brings together new generative AI capabilities powered by foundation models and traditional machine learning (ML) into a powerful studio spanning the AI lifecycle |
 |  | [watsonx.data](https://www.ibm.com/products/watsonx-data) | Enables you to scale analytics and AI with all your data, wherever it resides |

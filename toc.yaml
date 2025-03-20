@@ -63,12 +63,3 @@ toc:
       id: reference
       topics:
       - reference.md
-  - navgroup:
-      id: help
-      topics:
-      - get-help-da.md
-      - faqs.md
-      - topicgroup:
-          label: Troubleshooting
-          topics:
-          - troubleshoot.md
