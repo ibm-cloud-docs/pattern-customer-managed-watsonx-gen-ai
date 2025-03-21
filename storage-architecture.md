@@ -12,7 +12,7 @@ keywords:
 # Architecture decisions for storage
 {: #storage-arch}
 
-The following table summarizes the storage architecture decisions for the customer managed watsonx Gen AI pattern.
+The following table summarizes the storage architecture decisions for the customer managed watsonx gen AI pattern.
 
 | Architecture decision | Requirement |  Option | Decision | Rationale |
 | -------------- | -------------- | -------------- | -------------- | -------------- |

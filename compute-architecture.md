@@ -15,7 +15,7 @@ keywords: watsonx-gen-ai
 # Architecture decisions for compute
 {: #compute-architecture}
 
-The following table summarizes the compute architecture decisions for the customer managed watsonx Gen AI pattern.
+The following table summarizes the compute architecture decisions for the customer managed watsonx gen AI pattern.
 
 | Architecture decision| Requirement | Option | Decision| Rationale|
 |---|---|---|---|---|

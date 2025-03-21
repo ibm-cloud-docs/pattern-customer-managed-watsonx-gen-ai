@@ -72,25 +72,25 @@ production: false
 {: toc-version="1.0"}
 
 
-This reference architecture summarizes the best practices for watsonx Gen AI Pattern deployment on IBM Cloud.
+This reference architecture summarizes the best practices for watsonx gen AI Pattern deployment on IBM Cloud.
 
 ## Architecture diagram
 {: #architecture-diagram}
 
-The below diagram represents the architecture for Gen AI on IBM cloud and reuses the [best practices](https://cloud.ibm.com/docs/framework-financial-services?topic=framework-financial-services-about) for IBM Cloud for Financial Services and [VPC reference architecture](https://cloud.ibm.com/docs/framework-financial-services?topic=framework-financial-services-vpc-architecture-about).
+The below diagram represents the architecture for gen AI on IBM cloud and reuses the [best practices](https://cloud.ibm.com/docs/framework-financial-services?topic=framework-financial-services-about) for IBM Cloud for Financial Services and [VPC reference architecture](https://cloud.ibm.com/docs/framework-financial-services?topic=framework-financial-services-vpc-architecture-about).
 
 ![Architecture.](images/rag-pattern-v2-arch-ALL.svg "Architecture"){: caption="Reference Architecture" caption-side="bottom"}
 
 Central to the architecture are three VPCs, which provide for separation of concerns between provider management functionality and consumer workloads.
 
 **Management VPC**  
-Provides compute, storage, and network services to enable the client or service provider's administrators to monitor, operate, and maintain the watsonx software and the Gen AI application environment.
+Provides compute, storage, and network services to enable the client or service provider's administrators to monitor, operate, and maintain the watsonx software and the gen AI application environment.
 
 **Workload VPC**  
-Provides compute, storage, and network services to securely support the single tenant (dedicated) watsonx software that provides Gen AI capabilities and the hosted Gen AI applications that deliver services to the consumer.
+Provides compute, storage, and network services to securely support the single tenant (dedicated) watsonx software that provides gen AI capabilities and the hosted gen AI applications that deliver services to the consumer.
 
 **Edge VPC**  
-The edge VPC is used to enhance boundary protection for the workload VPC, by allowing consumers to access Gen AI User Interface through the public internet.
+The edge VPC is used to enhance boundary protection for the workload VPC, by allowing consumers to access gen AI User Interface through the public internet.
 
 Other features of the reference architecture:  
 

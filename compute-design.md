@@ -15,7 +15,7 @@ keywords: watsonx-gen-ai
 # Compute design
 {: #compute-design-considerations}
 
-The following are the compute design considerations for the customer managed watsonx Gen AI pattern {{site.data.keyword.redhat_openshift_notm}} pattern.
+The following are the compute design considerations for the customer managed watsonx gen AI pattern {{site.data.keyword.redhat_openshift_notm}} pattern.
 
 1. A VPC Landing Zone is deployed which provides the ability to automate the installation of an Red Hat OpenShift cluster into a multizone region.
 2. The worker pool node size and quantity are determined based on the resource requirements for the application and storage workloads.

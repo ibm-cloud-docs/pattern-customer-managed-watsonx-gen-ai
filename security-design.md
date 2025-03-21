@@ -12,7 +12,7 @@ keywords:
 # Security design
 {: #security-design}
 
-The following security design decsisons should be considered for the customer managed watsonx Gen AI:
+The following security design decsisons should be considered for the customer managed watsonx gen AI:
 
 * Use of IBM Cloud IAM roles to the RBACs [for platform and service roles](https://cloud.ibm.com/docs/openshift?topic=openshift-iam-platform-access-roles&interface=ui)
 * Separation of environments follows principle of separation of duties and least privilege:

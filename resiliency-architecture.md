@@ -12,7 +12,7 @@ keywords:
 # Architecture descisions for resiliency
 {: #resiliency-architecture}
 
-The following are resiliency architecture decisions for the customer managed watsonx Gen AI pattern.
+The following are resiliency architecture decisions for the customer managed watsonx gen AI pattern.
 
 | Architecture decision | Requirement | Alternative  | Decision | Rationale   |
 | --------------------- | ----------- | ------------ | -------- | ----------- |

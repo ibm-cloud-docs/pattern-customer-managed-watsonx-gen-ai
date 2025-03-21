@@ -12,7 +12,7 @@ keywords:
 # Storage design
 {: #storage-design}
 
-The following provides an in-depth view of the different storage types and solutions that are needed for the customer managed watsonx Gen AI pattern {{site.data.keyword.redhat_openshift_notm}} pattern.
+The following provides an in-depth view of the different storage types and solutions that are needed for the customer managed watsonx gen AI pattern {{site.data.keyword.redhat_openshift_notm}} pattern.
 
 ## Storage types
 {: #storage-types}

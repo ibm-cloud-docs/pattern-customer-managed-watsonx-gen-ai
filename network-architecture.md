@@ -15,7 +15,7 @@ keywords:
 # Architecture decisions for networking
 {: #network-architecture}
 
-The following are networking architecture decisions for customer managed watsonx Gen AI pattern.
+The following are networking architecture decisions for customer managed watsonx gen AI pattern.
 
 
 | Architecture decision                                                       | Requirement                                                                                                                       | Alternative                                                                                                     | Decision                                   | Rationale                                                                                                                                                                                                                                                                                              |
