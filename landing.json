@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "title": "Deploying customer managed watsonx gen AI pattern",
+  "introduction": "The customer managed watsonx gen AI pattern provides a solution design for deployment of IBM Cloud Pak for Data on Red Hat OpenShift in IBM Cloud.",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Solution overview",
+        "href": "/docs/pattern-customer-managed-watsonx-gen-ai?topic=pattern-customer-managed-watsonx-gen-ai-overview"
+      },
+      {
+        "title": "Compute",
+        "href": "/docs/pattern-customer-managed-watsonx-gen-ai?topic=pattern-customer-managed-watsonx-gen-ai-compute-design-considerations"
+      },
+      {
+        "title": "Storage",
+        "href": "/docs/pattern-customer-managed-watsonx-gen-ai?topic=pattern-customer-managed-watsonx-gen-ai-storage-design"
+      },
+      {
+        "title": "Networking",
+        "href": "/docs/pattern-customer-managed-watsonx-gen-ai?topic=pattern-customer-managed-watsonx-gen-ai-networking-design-consideration"
+      },
+      {
+        "title": "Security",
+        "href": "/docs/pattern-customer-managed-watsonx-gen-ai?topic=pattern-customer-managed-watsonx-gen-ai-security-design"
+      },
+      {
+        "title": "Resiliency",
+        "href": "/docs/pattern-customer-managed-watsonx-gen-ai?topic=pattern-customer-managed-watsonx-gen-ai-resiliency-design"
+      },
+      {
+        "title": "Service management",
+        "href": "/docs/pattern-customer-managed-watsonx-gen-ai?topic=pattern-customer-managed-watsonx-gen-ai-management-monitoring"
+      }
+    ]
+  },
+  "section_architectures": [
+    {
+      "title": "Customer managed watsonx gen AI on Red Hat OpenShift on VPC",
+      "href": "/docs/pattern-customer-managed-watsonx-gen-ai?topic=pattern-customer-managed-watsonx-gen-ai-terraform-ibm-cloudpak-data",
+      "deployable": false
+    }
+  ]
+}
