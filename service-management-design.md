@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2025
-lastupdated: "2025-02-18"
+  years: 2025, 2026
+lastupdated: "2026-09-14"
 
 subcollection: pattern-customer-managed-watsonx-gen-ai
 keywords:
@@ -48,4 +48,4 @@ Configure IBM Cloud Flow Logs for VPC to gather information about the traffic en
 ## IBM Cloud Pak for Data monitoring
 {: #application-monitoring}
 
-IBM Cloud Pak for Data allows the user to monitor the services that are running on the platform, understand how you are using cluster resources, and be aware of issues as they arise.  You can also setup audit events for auditting purposes.  See [Ongoing maintenace (Day 2)](https://www.ibm.com/docs/en/cloud-paks/cp-data/5.0.x?topic=administering-ongoing-maintenance-day-2) for best practices and for monitoring and auditing information.
+IBM Cloud Pak for Data allows the user to monitor the services that are running on the platform, understand how you are using cluster resources, and be aware of issues as they arise.  You can also setup audit events for auditting purposes.  See [Ongoing maintenace (Day 2)](https://www.ibm.com/docs/en/software-hub/5.3.x?topic=administering-ongoing-maintenance-day-2) for best practices and for monitoring and auditing information.
