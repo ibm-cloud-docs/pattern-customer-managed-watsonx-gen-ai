@@ -1,10 +1,8 @@
 ---
 
-# The YAML header is required. For more information about the YAML header, see
-# https://test.cloud.ibm.com/docs-internal/writing?topic=writing-reference-architectures
 
 copyright:
-  years: 2025
+  years: 2025, 2026
 lastupdated: "2025-02-21"
 
 keywords: # Not typically populated
@@ -20,11 +18,6 @@ authors:
 # The release that the reference architecture describes
 version: 1.0
 
-# Use if the reference architecture has deployable code.
-# Value is the URL to land the user in the IBM Cloud catalog details page for the deployable architecture.
-# See https://test.cloud.ibm.com/docs/get-coding?topic=get-coding-deploy-button
-deployment-url: url
-
 docs: https://cloud.ibm.com/docs/solution-guide
 
 image_source: https://github.com/terraform-ibm-modules/module/reference-architectures/xxx.svg
@@ -37,17 +30,6 @@ related_links:
     url: 'https://url'
     description: 'Description'
 
-# use-case from 'code' column in
-# https://github.ibm.com/digital/taxonomy/blob/main/topics/topics_flat_list.csv
-use-case:
-
-# industry from 'code' column in
-# https://github.ibm.com/digital/taxonomy/blob/main/industries/industries_flat_list.csv
-industry:
-
-# compliance from 'code' column in
-# https://github.ibm.com/digital/taxonomy/blob/main/compliance_entities/compliance_entities_flat_list.csv
-compliance:
 
 content-type: reference-architecture
 
@@ -63,8 +45,6 @@ production: false
 
 
 {{site.data.keyword.attribute-definition-list}}
-
-
 
 # Customer managed watsonx gen AI 
 {: #terraform-ibm-cloudpak-data}
@@ -83,16 +63,16 @@ The below diagram represents the architecture for gen AI on IBM cloud and reuses
 
 Central to the architecture are three VPCs, which provide for separation of concerns between provider management functionality and consumer workloads.
 
-**Management VPC**  
+**Management VPC**
 Provides compute, storage, and network services to enable the client or service provider's administrators to monitor, operate, and maintain the watsonx software and the gen AI application environment.
 
-**Workload VPC**  
+**Workload VPC**
 Provides compute, storage, and network services to securely support the single tenant (dedicated) watsonx software that provides gen AI capabilities and the hosted gen AI applications that deliver services to the consumer.
 
-**Edge VPC**  
+**Edge VPC**
 The edge VPC is used to enhance boundary protection for the workload VPC, by allowing consumers to access gen AI User Interface through the public internet.
 
-Other features of the reference architecture:  
+Other features of the reference architecture:
 
 * Can reside in one or more multi-zone regions to provide additional resiliency.
 
@@ -172,15 +152,15 @@ The following table outlines the products or services used in the architecture f
 ## Compliance
 {: #compliance}
 
-**CI / CD / CC Pipelines**  
+**CI / CD / CC Pipelines**
 
-The Continuous Integration (CI), Continuous Deployment (CD), and Continuous Compliance (CC) pipelines, referred to as [DevSecOps Application Lifecycle Management](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-devsecops-alm-e1c16cac-7ea8-413f-a819-67e3a3251e44-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2cjcmVmZXJlbmNlX2FyY2hpdGVjdHVyZQ%3D%3D) are used to deploy the application, check for vulnerabilities, and ensure auditability. Below are some of important compliance features of DevSecOps Application Lifecycle Management: 
+The Continuous Integration (CI), Continuous Deployment (CD), and Continuous Compliance (CC) pipelines, referred to as [DevSecOps Application Lifecycle Management](https://cloud.ibm.com/catalog/architecture/deploy-arch-ibm-devsecops-alm-e1c16cac-7ea8-413f-a819-67e3a3251e44-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2cjcmVmZXJlbmNlX2FyY2hpdGVjdHVyZQ%3D%3D) are used to deploy the application, check for vulnerabilities, and ensure auditability. Below are some of important compliance features of DevSecOps Application Lifecycle Management:
 
 * **Vulnerability Scans**
 
 Vulnerability scans involve using specialized tools to look for security vulnerabilities in the code. This is crucial to identify and fix potential security issues before they become a problem in production.
 
-* **Sign Build Artifacts**  
+* **Sign Build Artifacts**
 
 The code is compiled and built into software or application artifacts (like executable files or libraries). These artifacts are then digitally signed to ensure their authenticity and integrity.
 
@@ -188,9 +168,9 @@ The code is compiled and built into software or application artifacts (like exec
 
 This involves collecting and storing evidence of the development process, such as commit logs, build logs, and other relevant data. It helps in tracing back and understanding what happened at different stages of development.
 
-* **Evidence Locker**  
+* **Evidence Locker**
 
 This involves collecting and storing evidence of the development process, such as commit logs, build logs, and other relevant data. This helps in tracing back and understanding what happened at different stages of development.
 
-**Security and Compliance Center (SCC)**  
+**Security and Compliance Center (SCC)**
 This reference architecture utilizes the Security and Compliance Center (SCC) which defines policy as code, implements controls for secure data and workload deployments and assesses security and compliance posture. For this reference architecture two profiles are used. The [**IBM Cloud Framework for Financial Services**](https://cloud.ibm.com/docs/framework-financial-services-controls?topic=framework-financial-services-controls-overview) and **AI ICT Guardrails**. A profile is a grouping of controls that can be evaluated for compliance.

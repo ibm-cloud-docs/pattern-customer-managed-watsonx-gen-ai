@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 2025
+  years: 2025, 2026
 lastupdated: "2025-07-21"
 
 subcollection: pattern-customer-managed-watsonx-gen-ai

@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2025
-lastupdated: "2025-02-18"
+  years: 2025, 2026
+lastupdated: "2026-09-14"
 
 subcollection: pattern-customer-managed-watsonx-gen-ai
 keywords:
@@ -19,7 +19,7 @@ The following summarize the architecture decisions for service management for cu
 | Architecture decision                                                              | Requirement                                                                                              | Option                                                              | Decision                              | Rationale                                                                                                                                                                                                                                                |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Operational monitoring of cloud infrastructure and services                        | Monitor system health to detect issues that might impact the availability of the system and application. | - IBM Cloud Monitoring \n - Bring Your Own Monitoring Tool                     | IBM Cloud Monitoring                  | IBM Cloud Monitoring collects and monitors operational metrics for cloud infrastructure as well as the cloud platform and services and provides a single view for all metrics                                                                            |
-| Operational monitoring of applications                                             | Monitor app health to detect issues that might impact the availability of the app.                       | - IBM Cloud Monitoring \n - Instana (SaaS) \n - IBM Cloud Pak for Data integrated monitoring \n - Bring Your Own Monitoring Tool | IBM Cloud Monitoring + Instana (SaaS) + IBM Cloud Pak for Data integrated monitoring | Instana is used along with IBM Cloud Monitoring to get more application performance metrics and automate Application Performance Management. Instana provides data and actionable insights to monitor the applications and automate root-cause analysis. Information on [IBM Cloud Pak for Data integrated monitoring](https://www.ibm.com/docs/en/software-hub/5.1.x?topic=administering-post-installation-setup-day-1) |
+| Operational monitoring of applications                                             | Monitor app health to detect issues that might impact the availability of the app.                       | - IBM Cloud Monitoring \n - Instana (SaaS) \n - IBM Cloud Pak for Data integrated monitoring \n - Bring Your Own Monitoring Tool | IBM Cloud Monitoring + Instana (SaaS) + IBM Cloud Pak for Data integrated monitoring | Instana is used along with IBM Cloud Monitoring to get more application performance metrics and automate Application Performance Management. Instana provides data and actionable insights to monitor the applications and automate root-cause analysis. Information on [IBM Cloud Pak for Data integrated monitoring](https://www.ibm.com/docs/en/software-hub/5.3.x?topic=administering-post-installation-setup-day-1) |
 {: caption="Architecture decisions for monitoring" caption-side="bottom"}
 
 ## Architecture decisions for logging
